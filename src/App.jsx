@@ -9,7 +9,7 @@ import {
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const API = "https://ticket-system-lyart-nine.vercel.app/";
+const API = "ticket-system-backend-bnr59hpio-hitorigotoh10-bithors-projects.vercel.app";
 
 function Tickets() {
   const { getToken } = useAuth();
